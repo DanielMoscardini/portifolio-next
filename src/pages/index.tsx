@@ -11,8 +11,10 @@ const Home = () => {
           content="Estudo tecnologias front-end e estou em busca do meu primeiro emprego como desenvolvedor"
         />
       </Head>
-      <h1>Home</h1>
-      <main>
+      <main
+        className="px-6
+         md:px-16 md:space-y-28" 
+      >
         <AboutMe />
       </main>
     </>

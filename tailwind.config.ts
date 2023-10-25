@@ -6,7 +6,22 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'd-gray-500': '#737994',
+        'd-blue-500': '#8CAAEE',
+        'd-blue-900': '#303449'
+      },
+      width: {
+        120: '30rem',
+        125: '31.25rem'
+      },
+      height: {
+        125: '31.25rem'
+      }
+    }
+  },
   plugins: []
 };
 export default config;
